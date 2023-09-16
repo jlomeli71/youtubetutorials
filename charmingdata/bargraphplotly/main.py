@@ -62,7 +62,6 @@ barchart = px.bar(
     # range_y=[0,9000],           # set range of x-axis
     # category_orders={'year':    # force a specific ordering of values per column
     # [2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001]},
-
 )
 
 # barchart.layout.updatemenus[0].buttons[0].args[1]['frame']['duration'] = 1000
@@ -72,6 +71,5 @@ barchart = px.bar(
 #                        legend={'x':0,'y':1.0}),
 # barchart.update_traces(texttemplate='%{text:.2s}', textposition='outside',
 #                        width=[.3,.3,.3,.3,.3,.3,.6,.3,.3,.3,.3,.3,.3])
-
 
 pio.show(barchart)
